@@ -13,7 +13,6 @@ import api from './services/api'
 
 export default function App() {
   const [repos, setRepos] = useState([])
-  const [count, setCount] = useState([])
 
   useEffect(() => {
     api
